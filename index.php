@@ -43,7 +43,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <script>alert("Patient data has been added successfully.");</script>
     <?php endif; ?>
 
-    <form action="" method="POST">
+    <form action="https://yourphphost.com/insert.php" method="POST">
+
+
         <div class="form-row">
             <label for="name">Name:</label>
             <input type="text" name="name" placeholder="Full Name" required>
