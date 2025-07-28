@@ -1,0 +1,122 @@
+/* clinic-style.css */
+
+/* === General Body Style === */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* === Clinic Header === */
+.clinic-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.clinic-header img {
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.clinic-header h1 {
+    margin-top: 10px;
+    font-size: 36px;
+    color: #2e7d32;
+    letter-spacing: 1px;
+}
+
+/* === Form Card === */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* === Form Title === */
+h2 {
+    text-align: center;
+    color: #388e3c;
+    margin-bottom: 20px;
+}
+
+/* === Input Fields === */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    width: 160px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-row input,
+.form-row select {
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+/* === Submit Button === */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #388e3c;
+}
+
+/* === Navigation Link === */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #2e7d32;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #1b5e20;
+}
+.link-bar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-bar a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.link-bar a:hover {
+    color: #1b5e20;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
